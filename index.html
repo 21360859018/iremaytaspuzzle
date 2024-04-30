@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>yapboz oyunu</title>
+        <link rel="stylesheet" href="puzzle.css">
+        <script src="puzzle.js"></script>
+        <style>
+            .kirmizi-yazi {
+                color: black;
+                text-align: left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="game-container">
+            <button id="start-button">Oyunu başlat</button>
+            <p id="game-status"></p>
+          </div>
+          <script src="script.js"></script>
+            <p class="kirmizi-yazi"> AŞAĞIDAKİ KUTUDA KARIŞIK OLARAK VERİLEN  </p>
+            <p class="kirmizi-yazi"> YAPBOZ PARÇALARINI YUKARIDAKİ TABLOYA YERLEŞTİRİNİZ </p>
+            
+        <audio src="ses/ses.mp3" control loop autoplay> 
+        </audio>
+        <br>
+        <div id="board"></div>
+        <h2>Turns: <span id="turns">0</span></h2>
+        <div id="pieces"></div>
+    </body>
+</html>
